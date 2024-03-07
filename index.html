@@ -1,176 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Document</title>
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-
-<header class="header">
-  <div class="container">
-
-    <nav class="navbar">
-
-      <div class="navbar__btn">
-        <span class="navbar__btn-row"></span>
-        <span class="navbar__btn-row"></span>
-        <span class="navbar__btn-row"></span>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Site Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar__btn"><span class="navbar__btn-row"></span><span class="navbar__btn-row"></span><span class="navbar__btn-row"></span>
+          </div>
+          <ol class="navbar__list">
+            <li class="navbar__item"><a class="navbar__link navbar__link--active">ГЛАВНАЯ</a><a class="navbar__link">ОБ АВТОРЕ</a></li>
+          </ol>
+        </nav>
       </div>
-
-      <ul class="navbar__list">
-        <li class="navbar__item">
-          <a class="navbar__link navbar__link--active" href="">ГЛАВНАЯ</a>
-        </li>
-        <li class="navbar__item">
-          <a class="navbar__link" href="">ОБ АВТОРЕ</a>
-        </li>
-        <li class="navbar__item">
-          <a class="navbar__link" href="">РАБОТЫ</a>
-        </li>
-        <li class="navbar__item">
-          <a class="navbar__link" href="">ПРОЦЕСС</a>
-        </li>
-        <li class="navbar__item">
-          <a class="navbar__link" href="">КОНТАКТЫ</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="content">
-      <h1 class="content__title">Дизайн и верстка</h1>
-
-      <p class="content__description">
-        Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br>вэб-дизайне. Lorem Ipsum является
-        стандартной
-        "рыбой"
-        для текстов на латинице с начала XVI века.
-      </p>
-
-      <a class="content__link" href="">НАПИСАТЬ МНЕ</a>
-    </div>
-
-  </div>
-
-</header>
-
-<main>
-
-  <section class="about section">
-    <div class="container container--sm">
-      <h2 class="about__title section__title">Обо мне</h2>
-      <p class="about__description section__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-        вэб-дизайне. Lorem
-        Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-    </div>
-  </section>
-
-  <section class="experience">
-    <div class="container">
-      <h2 class="experience__title visually-hidden">Опыт работы</h2>
-      <div class="experience__container">
-
-        <div class="experience-item">
-          <div class="experience-item__content">
-            <p class="experience-item__number">40+</p>
-            <p class="experience-item__text">проектов</p>
-          </div>
-          <div class="experience-item__image">
-            <img alt="image" src="assets/images/project.svg">
-          </div>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-item__content">
-            <p class="experience-item__number">40+</p>
-            <p class="experience-item__text">проектов</p>
-          </div>
-          <div class="experience-item__image">
-            <img alt="image" src="assets/images/project.svg">
-          </div>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-item__content">
-            <p class="experience-item__number">40+</p>
-            <p class="experience-item__text">проектов</p>
-          </div>
-          <div class="experience-item__image">
-            <img alt="image" src="assets/images/project.svg">
-          </div>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-item__content">
-            <p class="experience-item__number">40+</p>
-            <p class="experience-item__text">проектов</p>
-          </div>
-          <div class="experience-item__image">
-            <img alt="image" src="assets/images/project.svg">
-          </div>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-item__content">
-            <p class="experience-item__number">40+</p>
-            <p class="experience-item__text">проектов</p>
-          </div>
-          <div class="experience-item__image">
-            <img alt="image" src="assets/images/project.svg">
-          </div>
-        </div>
-
-        <div class="experience-item">
-          <div class="experience-item__content">
-            <p class="experience-item__number">40+</p>
-            <p class="experience-item__text">проектов</p>
-          </div>
-          <div class="experience-item__image">
-            <img alt="image" src="assets/images/project.svg">
-          </div>
-        </div>
-
+    </header>
+    <main></main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__name">Иванов Иван</div>
+        <div class="footer__copyright">(с) 2018. Все права защищены.</div>
       </div>
-    </div>
-  </section>
-
-  <section class="process section">
-    <div class="container container--sm">
-      <h2 class="process__title section__title">Как я работаю</h2>
-      <p class="process__description section__description">
-        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
-        "рыбой" для текстов на латинице с начала XVI века.</p>
-    </div>
-  </section>
-
-  <section class="video">
-    <div class="container">
-      <h2 class="video__title visually-hidden">Моє відео</h2>
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-              class="video__iframe"
-              height="315" src="https://www.youtube.com/embed/a-XxbCIa7IU?si=kCLvX9-9Uea4aYzs"
-              title="YouTube video player"
-              width="560"></iframe>
-    </div>
-  </section>
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <div class="footer__name">Иванов Иван</div>
-    <div class="footer__copyright">(с) 2018. Все права защищены.</div>
-  </div>
-</footer>
-
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="assets/js/main.js"></script>
-
-</body>
-
+    </footer>
+  </body>
 </html>
